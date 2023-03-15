@@ -1,0 +1,6 @@
+var b = 4;
+var h= 12;
+
+area = ((0.5 * b) * h);
+
+console.log("Area is:" + area);

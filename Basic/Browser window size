@@ -1,0 +1,5 @@
+var width = window.innerWidth;
+var height = window.innerHeight;
+
+console.log("Browser width is:" + width);
+console.log("Browser height is :" + height);

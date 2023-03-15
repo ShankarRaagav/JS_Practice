@@ -1,0 +1,8 @@
+var a = 40;
+var b = 2;
+
+var multiply = a * b;
+var divide = a / b;
+
+console.log("Multiplication of 2 numbers is:" + multiply);
+console.log("Division of 2 numbers is:" + divide);

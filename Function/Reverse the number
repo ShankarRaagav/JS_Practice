@@ -1,0 +1,9 @@
+let num;
+
+function numReverse(num)
+{
+    num = num + "";
+    return num.split("").reverse().join("");
+}
+
+console.log(Number(numReverse(12345)));

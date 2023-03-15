@@ -1,0 +1,16 @@
+let combo = (s) =>
+{
+    let str = [];
+    
+    for(let i = 0; i < s.length; i++)
+    {
+        for(let j = 1 + 1; j< s.length + 1; j++)
+        {
+            str.push(s.slice(i,j));
+        }
+    }
+    return str;
+}
+
+console.log(combo('raagav'));
+
